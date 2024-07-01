@@ -1,2 +1,2 @@
 Take note of your supercomputer and the version using this link: https://docs.olcf.ornl.gov/software/viz_tools/visit.html
-![VisIt Version Number](VisIt/image.png)
+![VisIt Version Number](How To Install VisIt/image.png)
