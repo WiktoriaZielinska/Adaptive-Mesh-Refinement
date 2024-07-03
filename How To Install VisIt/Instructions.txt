@@ -1,2 +1,2 @@
 Take note of your supercomputer and the version using this link: https://docs.olcf.ornl.gov/software/viz_tools/visit.html
-![VisIt Version Number](https://github.com/WiktoriaZielinska/Adaptive-Mesh-Refinement/blob/main/How%20To%20Install%20VisIt/image.png)
+![VisIt Version Number](images/image.png)
