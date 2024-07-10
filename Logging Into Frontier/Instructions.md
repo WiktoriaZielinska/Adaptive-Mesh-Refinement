@@ -205,23 +205,8 @@ The numbers may or may not be different
 
 Where USERNAME is the same username that you used to log into Frontier.
 
-Your output will either show a time value, or simply say "TIME". You will know when it is done. The image below shows both cases, the top being a job that hasn't finished yet, and the bottom being a job that has finished running.
+Your output will either show a time value, or simply say "TIME". You will know when it is done. The image below shows both cases, the top being a job that hasn't finished yet, and the bottom being a job that has finished running. Wait until the job finishes running to move onto the next step.
 
 ![image](https://github.com/WiktoriaZielinska/Adaptive-Mesh-Refinement/assets/112288108/b54c2827-7524-498b-b56e-1a8cd50b7f04)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+26. Congratulations! You are now ready to visualize using VisIt!
