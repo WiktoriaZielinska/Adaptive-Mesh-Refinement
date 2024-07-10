@@ -201,6 +201,13 @@ athenaPK  AthenaPK-2044267.out  parthenon.out0.00000.phdf  parthenon.out0.00000.
 
 The numbers may or may not be different
 
+25. To see the status of your job, type: squeue -u USERNAME
+
+Where USERNAME is the same username that you used to log into Frontier.
+
+Your output will either show a time value, or simply say "TIME". You will know when it is done. The image below shows both cases, the top being a job that hasn't finished yet, and the bottom being a job that has finished running.
+
+![image](https://github.com/WiktoriaZielinska/Adaptive-Mesh-Refinement/assets/112288108/b54c2827-7524-498b-b56e-1a8cd50b7f04)
 
 
 
