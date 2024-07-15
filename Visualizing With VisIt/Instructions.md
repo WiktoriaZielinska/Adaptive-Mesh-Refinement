@@ -20,6 +20,34 @@ The screen will grey out and it will look something like this:
 
 ![image](https://github.com/WiktoriaZielinska/Adaptive-Mesh-Refinement/assets/112288108/f7abb88f-deae-4ab5-91dc-9087276cbf86)
 
+You should now see this pop up at some point:
+
+![image](https://github.com/user-attachments/assets/9fa83855-8012-442a-96d1-26a5bfc605a3)
+
+7. Enter your 6 digit PIN and your RSA Token PIN:
+
+![image](https://github.com/user-attachments/assets/e5ec182a-fcb5-400b-aaec-f43684d2fb62)
+
+You should now see this:
+![image](https://github.com/user-attachments/assets/cc155f7b-c2cb-4fa4-abd9-116328c3507a)
 
 
 ![image](https://github.com/WiktoriaZielinska/Adaptive-Mesh-Refinement/assets/112288108/d8f69d37-960a-4a10-86bf-7bca2c6abd09)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
