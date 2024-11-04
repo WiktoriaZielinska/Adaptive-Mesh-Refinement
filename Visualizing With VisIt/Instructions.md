@@ -60,7 +60,7 @@ You should now see this screen:
 
 ![image](https://github.com/user-attachments/assets/9e84f3db-606c-468e-a47d-cd6cfe3bc38f)
 
-12. Look for this screen, and type in your Project ID into "Bank", then click click on "OK":
+12. Look for this screen, and type in your Project ID into "Bank", then click on "OK":
 
 ![image](https://github.com/user-attachments/assets/d393d7b3-fb91-4905-8d92-2de0c700c386)
 
@@ -98,8 +98,11 @@ You should now see this screen:
 
 20. 
 
+![image](https://github.com/user-attachments/assets/b0ce6afa-67c4-432c-b89e-e259923668c9)
 
+![image](https://github.com/user-attachments/assets/5fd53ddd-cdd2-4e69-be20-3e98ac2ed315)
 
+![image](https://github.com/user-attachments/assets/797e1152-a81e-422d-bfc1-861f4e5fae78)
 
 
 
