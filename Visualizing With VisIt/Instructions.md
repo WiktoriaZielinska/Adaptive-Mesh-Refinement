@@ -64,25 +64,39 @@ You should now see this screen:
 
 ![image](https://github.com/user-attachments/assets/d393d7b3-fb91-4905-8d92-2de0c700c386)
 
+13. This screen will pop up, and it will shortly disappear when VisIt it ready to visualize your data:
+
 ![image](https://github.com/user-attachments/assets/58aae095-c172-4280-a484-783aad196da7)
 
+13. When that screen disappears, open up these two screens again:
 
+![image](https://github.com/user-attachments/assets/84b1ee19-eb4d-4b78-9b0b-bba65b6f259a)
 
+14. Click on "Add":
 
+![image](https://github.com/user-attachments/assets/5fa3a448-d4d3-458c-97d9-65af931920fa)
 
+15. You can choose from any of the options below, but let's focus on this one for now. Click on "Mesh" and then "Mesh" again:
 
+![image](https://github.com/user-attachments/assets/429298f7-76ce-4312-85ca-db9038815ae9)
 
+16. You should now see this screen:
 
+![image](https://github.com/user-attachments/assets/21e4aca8-ed18-417c-91ef-f511e1e27aea)
 
+17. Click on "Draw":
 
+![image](https://github.com/user-attachments/assets/032164da-c375-434e-9a8b-3628c7e007e3)
 
+18. It will take a few seconds to load:
 
+![image](https://github.com/user-attachments/assets/6b6ad6d6-0f3b-4c37-8e49-ef4abebe3517)
 
+19. This is what you will see once it has fully loaded:
 
+![image](https://github.com/user-attachments/assets/c5495115-ccd3-4256-9bbe-73ac31dc3e0f)
 
-
-
-
+20. 
 
 
 
