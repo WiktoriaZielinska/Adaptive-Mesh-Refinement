@@ -120,12 +120,17 @@ You should now see this screen:
 
 ![image](https://github.com/user-attachments/assets/5f2559e7-1566-4b5b-97ec-24e633f02deb)
 
-26. 
+26. Now let's try adding another variable. Click on "Add" then click on "Pseudocolor" then click on "cons_density":
 
+![image](https://github.com/user-attachments/assets/2d3399b7-5995-4a60-a09b-14b974cca4af)
 
+27. After you do that and click on "Draw", you should now see this:
 
+![image](https://github.com/user-attachments/assets/64900267-2ef6-48f3-bbcc-418c1709c7c8)
 
+28. If you want to see how this visualization looks like, then go ahead and play around with the play buttons:
 
+![image](https://github.com/user-attachments/assets/e644e529-1c33-4b94-a60c-3eb6a955b6ce)
 
 
 
