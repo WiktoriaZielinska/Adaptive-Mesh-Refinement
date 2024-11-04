@@ -108,18 +108,19 @@ You should now see this screen:
 
 ![image](https://github.com/user-attachments/assets/797e1152-a81e-422d-bfc1-861f4e5fae78)
 
-23. To start the visualization from the beginning, click on the furthest arrow on the left:
+23. To start the visualization from the beginning, click on the furthest play button on the left:
 
 ![image](https://github.com/user-attachments/assets/8650ee9c-c4e3-4039-ae99-c2aab1e4faab)
 
-24. VisIt will automatically continue with the visualization if you haven't clicked on the center square still:
+24. VisIt will automatically continue with the visualization if you haven't clicked on the center square yet:
 
 ![image](https://github.com/user-attachments/assets/44f6ecb7-a0d7-42df-90bf-e4411f276209)
 
-25. 
+25. Clicking on the left play button to the left of the square will simply make the visualization go backwards from the time step it is currently at:
 
+![image](https://github.com/user-attachments/assets/5f2559e7-1566-4b5b-97ec-24e633f02deb)
 
-
+26. 
 
 
 
