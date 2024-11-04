@@ -96,13 +96,40 @@ You should now see this screen:
 
 ![image](https://github.com/user-attachments/assets/c5495115-ccd3-4256-9bbe-73ac31dc3e0f)
 
-20. 
+20. Click on the right play button next to the square in the middle. This is above the "Draw" button:
 
 ![image](https://github.com/user-attachments/assets/b0ce6afa-67c4-432c-b89e-e259923668c9)
 
+21. It will take some time for VisIt to load the next time step. You can see that it is done loading based on the information in the bottom left corner. You can see the next time step under "Window 1" where it says "00001" now:
+
 ![image](https://github.com/user-attachments/assets/5fd53ddd-cdd2-4e69-be20-3e98ac2ed315)
 
+22. VisIt will continue to go through each time step until it gets to the end or until you stop it with the center square button to the left of the right play button:
+
 ![image](https://github.com/user-attachments/assets/797e1152-a81e-422d-bfc1-861f4e5fae78)
+
+23. To start the visualization from the beginning, click on the furthest arrow on the left:
+
+![image](https://github.com/user-attachments/assets/8650ee9c-c4e3-4039-ae99-c2aab1e4faab)
+
+24. VisIt will automatically continue with the visualization if you haven't clicked on the center square still:
+
+![image](https://github.com/user-attachments/assets/44f6ecb7-a0d7-42df-90bf-e4411f276209)
+
+25. 
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
