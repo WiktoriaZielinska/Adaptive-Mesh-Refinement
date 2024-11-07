@@ -1,5 +1,7 @@
 1. After submitting your job and it finishes, you are now ready to open VisIt and see your simulation.
 
+![image](https://github.com/user-attachments/assets/a84cdf08-c8ca-40d3-b706-d95b3a911502)
+
 2. Launch the VisIt app:
 
 ![image](https://github.com/user-attachments/assets/430563e8-08b7-41bc-a14d-9947ecab0eec)
