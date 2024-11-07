@@ -67,7 +67,7 @@ Reconnect again with step 2:
 
 15. Press the letter “i” on the keyboard:
 
-![image](https://github.com/user-attachments/assets/f3a54221-0b23-4b31-a23b-3ac797f82ef1)
+![image](https://github.com/user-attachments/assets/6dfe3d2e-f533-498b-add9-1f751d1d9430)
 
 16. Copy and paste everything in this box below into that file:
 
@@ -169,15 +169,23 @@ This will create a folder in your athenapk directory, which is where you can fin
 
 20. Type: cd build
 
+![image](https://github.com/user-attachments/assets/756e6780-a6d3-4e17-a46f-0dbef9a08196)
+
 21. Type: cd bin
+
+![image](https://github.com/user-attachments/assets/9ac7ae8a-bb3b-45ea-a33d-5b030d3d7965)
 
 22. Type: vim run.sh
 
+![image](https://github.com/user-attachments/assets/511959e4-8cc9-4eed-af55-6403342c0cb4)
+
 23. Press the letter “i” on the keyboard
+
+![image](https://github.com/user-attachments/assets/f5575142-3e4b-437c-929e-247b732203ab)
 
 Below is an example submission script to run the classic problem and generate data to visualize.
 
-Copy and paste everything below into that file. Do not copy the stuff after the “STOP COPYING HERE, DO NOT INCLUDE THIS” text.
+Copy and paste everything below into that file:
 
 ```
 #!/bin/bash
@@ -229,7 +237,11 @@ srun -N1 -n8 -c7 --ntasks-per-node=8 --gpus-per-node=8 --gpu-bind=closest ./athe
     -i /ccs/home/wiktoria_zielinska/athenapk/inputs/blast_image.in \
 ```
 
+![image](https://github.com/user-attachments/assets/3c2d759a-c9b2-484a-9621-050589e60eb5)
+
 24. To run, type: sbatch run.sh
+
+![image](https://github.com/user-attachments/assets/8cb77230-a0a7-41ed-96d1-e34aaeff52dd)
 
 When run, you’ll see output like the below in the directory you ran from after you type “ls” 
 
