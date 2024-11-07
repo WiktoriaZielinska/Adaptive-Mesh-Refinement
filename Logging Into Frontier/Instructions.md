@@ -7,7 +7,15 @@
 NOTES:
 The password is your pin + your 6 digit RSA code
 
-![image](https://github.com/user-attachments/assets/e9e6bbf8-6fc7-4f58-9075-a4d7bbf66e9e)
+![image](https://github.com/user-attachments/assets/0df40f85-3e6e-4037-a173-c24176fe9f9e)
+
+You will now see a message asking about connecting, simply type "yes":
+
+![image](https://github.com/user-attachments/assets/2df5668f-da69-485f-acec-f5f62e07b785)
+
+Reconnect again with step 2:
+
+![image](https://github.com/user-attachments/assets/b45a245f-b2f5-4eb2-ad1f-5ede3263b7a4)
 
 3. Type: git clone https://github.com/parthenon-hpc-lab/athenapk.git athenapk
 
