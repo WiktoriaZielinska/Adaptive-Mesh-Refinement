@@ -1,10 +1,12 @@
 1. After submitting your job and it finishes, you are now ready to open VisIt and see your simulation.
 
-2. Launch the VisIt app.
+2. Launch the VisIt app:
 
-3. Choose the correct Host Profile, this should be the one that we created earlier. Click "Post".
+![image](https://github.com/user-attachments/assets/430563e8-08b7-41bc-a14d-9947ecab0eec)
 
-![image](https://github.com/WiktoriaZielinska/Adaptive-Mesh-Refinement/assets/112288108/4c802beb-817a-46b0-b245-7ac6201cdbb2)
+3. Choose the correct Host Profile, this should be "ORNL_Andes". Click "Post":
+
+![image](https://github.com/user-attachments/assets/13ca3a34-9e17-409f-8a8e-b58ce887f13c)
 
 4. Now, click on "Open".
 
@@ -14,11 +16,11 @@
 
 ![image](https://github.com/WiktoriaZielinska/Adaptive-Mesh-Refinement/assets/112288108/c233aa63-f935-4b3f-b720-b50e9fb63a1c)
 
-6. Change "Host" from "localhost" to whatever Host Profile you want to use, like "Frontier".
+6. Change "Host" from "localhost" to "ORNL_Andes".
 
 The screen will grey out and it will look something like this:
 
-![image](https://github.com/WiktoriaZielinska/Adaptive-Mesh-Refinement/assets/112288108/f7abb88f-deae-4ab5-91dc-9087276cbf86)
+![image](https://github.com/user-attachments/assets/2926e477-3964-402a-b9e1-855af5d17015)
 
 You should now see this pop up at some point:
 
@@ -131,6 +133,11 @@ You should now see this screen:
 28. If you want to see how this visualization looks like, then go ahead and play around with the play buttons:
 
 ![image](https://github.com/user-attachments/assets/e644e529-1c33-4b94-a60c-3eb6a955b6ce)
+
+
+
+
+
 
 
 
