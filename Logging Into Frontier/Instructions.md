@@ -2,7 +2,7 @@
 
 ![image](https://github.com/user-attachments/assets/1dae5cd3-45dc-42e4-b238-8ebd61bd7760)
 
-2. Log into Frontier using your XCAMS/UCAMS username and password: ssh USERNAME@frontier.olcf.ornl.gov
+2. Log into Frontier using your XCAMS/UCAMS username and password: `ssh USERNAME@frontier.olcf.ornl.gov`
 
 NOTES:
 The password is your pin + your 6 digit RSA code
