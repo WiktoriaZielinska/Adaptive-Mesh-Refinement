@@ -40,7 +40,7 @@ You should also see this if all went well:
 
 Going back to VisIt, you should see this screen:
 
-![image](https://github.com/user-attachments/assets/7ee0e137-3760-446c-8dc2-475287a961eb)
+![image](https://github.com/user-attachments/assets/df5434ca-18c8-4fff-a70b-98f540b718f4)
 
 8. Click on "athenapk" in the Directories:
 
