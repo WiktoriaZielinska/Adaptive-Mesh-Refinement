@@ -1,37 +1,65 @@
-1. Open CMD on Windows.
+1. Open CMD:
+
+![image](https://github.com/user-attachments/assets/1dae5cd3-45dc-42e4-b238-8ebd61bd7760)
 
 2. Log into Frontier using your XCAMS/UCAMS username and password: ssh USERNAME@frontier.olcf.ornl.gov
 
 NOTES:
 The password is your pin + your 6 digit RSA code
 
+![image](https://github.com/user-attachments/assets/e9e6bbf8-6fc7-4f58-9075-a4d7bbf66e9e)
+
 3. Type: git clone https://github.com/parthenon-hpc-lab/athenapk.git athenapk
+
+![image](https://github.com/user-attachments/assets/7a5a2c73-9e02-4cdd-bdf9-c22bc0c4eb0b)
 
 4. Type: cd athenapk
 
+![image](https://github.com/user-attachments/assets/ca9ce564-5887-4e64-bc6e-9cd7170cad02)
+
 5. Type: git submodule init
+
+![image](https://github.com/user-attachments/assets/aa85372d-9f34-4f22-bc0c-34f5e1e1a2b1)
 
 6. Type: git submodule update
 
+![image](https://github.com/user-attachments/assets/6bfc77ec-512e-4807-ba01-9ae76c6a52dc)
+
 7. Type: module load cpe/23.09
+
+![image](https://github.com/user-attachments/assets/2128a45b-a6c1-4be2-9ac6-cfcd234c864b)
 
 8. Type: module load PrgEnv-amd
 
+![image](https://github.com/user-attachments/assets/ea0c9968-80d4-4105-a587-46d92f93b9ac)
+
 9. Type: module load craype-accel-amd-gfx90a
+
+![image](https://github.com/user-attachments/assets/01d9ba78-bcb6-4920-bef1-476128d51bc7)
 
 10. Type: module load cmake
 
+![image](https://github.com/user-attachments/assets/e374d65d-f350-442c-af97-a90aadca58f1)
+
 11. Type: module load hdf5
+
+![image](https://github.com/user-attachments/assets/9ea35c03-05ec-49e4-a96b-07a188a803b1)
 
 12. cd into athenapk if you are not already there.
 
+![image](https://github.com/user-attachments/assets/3c2b2459-a304-4ae5-9eb4-9162037e1cea)
+
 13. Type: ls
 
-![image](https://github.com/WiktoriaZielinska/Adaptive-Mesh-Refinement/assets/112288108/82c7e6b0-6543-420b-a45a-75197a2c9ab8)
+![image](https://github.com/user-attachments/assets/c0df9240-fb2a-409d-bf9d-06df8bde702d)
 
 14. Type: vim FrontierAndCrusher.cmake
 
-15. Press the letter “i” on the keyboard.
+![image](https://github.com/user-attachments/assets/27109823-ffd9-4455-8a28-c32727cdfc87)
+
+15. Press the letter “i” on the keyboard:
+
+![image](https://github.com/user-attachments/assets/f3a54221-0b23-4b31-a23b-3ac797f82ef1)
 
 16. Copy and paste everything in this box below into that file:
 
@@ -117,9 +145,15 @@ set(CMAKE_CXX_FLAGS "${MACHINE_CXX_FLAGS}" CACHE STRING "Default flags for this 
 
 17. Press ESC
 
+![image](https://github.com/user-attachments/assets/c1512fca-2b9c-4384-9f6e-2fabf0ac8ef7)
+
 18. Type: wq
 
+![image](https://github.com/user-attachments/assets/ea8b349b-9249-4e91-9bff-cefe1c3b1ad5)
+
 19. Press Enter
+
+![image](https://github.com/user-attachments/assets/b3a5389e-7dda-403b-84c2-cc40fb868bbf)
 
 This saves this file and allows you to exit.
 
