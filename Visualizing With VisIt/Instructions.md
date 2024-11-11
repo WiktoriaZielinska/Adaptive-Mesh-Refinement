@@ -42,11 +42,11 @@ You should also see this if all went well:
 
 Going back to VisIt, you should see this screen:
 
-![image](https://github.com/user-attachments/assets/df5434ca-18c8-4fff-a70b-98f540b718f4)
+![image](https://github.com/user-attachments/assets/a75ec3a7-fbcf-4bd3-972c-ab0f5f8aef85)
 
 8. Click on "athenapk" in the Directories:
 
-![image](https://github.com/user-attachments/assets/cc5b7928-22da-42a4-a450-9b6d806efb58)
+![image](https://github.com/user-attachments/assets/f2ae8666-3cad-4689-a944-f3ea8b77f95b)
 
 9. Click on "build" in the Directories:
 
@@ -58,15 +58,15 @@ Going back to VisIt, you should see this screen:
 
 You should now see this screen:
 
-![image](https://github.com/user-attachments/assets/b9b6c3ea-2aae-41f5-8492-8adffc4020d2)
+![image](https://github.com/user-attachments/assets/3142a2de-0d59-45dd-b000-e89dd229a501)
 
 11. In Files, scroll down and click on the parthenon files that have "xdmf" in them. Then click on "OK":
 
-![image](https://github.com/user-attachments/assets/9e84f3db-606c-468e-a47d-cd6cfe3bc38f)
+![image](https://github.com/user-attachments/assets/243bbcf6-19b4-4168-84b3-b46908a1aef3)
 
-12. Look for this screen, and type in your Project ID into "Bank", then click on "OK":
+12. Look for this screen, and type in your Project ID into "Bank", then change the time to "00:15:00", then click on "OK":
 
-![image](https://github.com/user-attachments/assets/d393d7b3-fb91-4905-8d92-2de0c700c386)
+![image](https://github.com/user-attachments/assets/0fdd23bd-3fda-4906-92c6-25c679e1d98c)
 
 13. This screen will pop up, and it will shortly disappear when VisIt it ready to visualize your data:
 
