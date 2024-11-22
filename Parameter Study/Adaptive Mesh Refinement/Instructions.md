@@ -166,7 +166,7 @@ parthenon/mesh/numlevel=3 \
 
 28. Press "Enter" on the keyboard:
 
-![image](https://github.com/user-attachments/assets/9ffca3a1-db2f-476c-8711-7907754cb316)
+![image](https://github.com/user-attachments/assets/ca2ac6de-fbd7-4558-9b23-4e601c25d609)
 
 29. Type: sbatch runAdaptiveMeshRefinement.sh
 
@@ -174,7 +174,7 @@ parthenon/mesh/numlevel=3 \
 
 30. Press "Enter" on the keyboard:
 
-![image](https://github.com/user-attachments/assets/1247d1e7-3985-4e54-8da5-10d13728005d)
+![image](https://github.com/user-attachments/assets/c031f7d5-bf57-40ac-af65-bdf0fc51bbb6)
 
 Your job number may be different
 
@@ -182,57 +182,65 @@ Your job number may be different
 
 Type your username instead of "USERNAME"
 
-![image](https://github.com/user-attachments/assets/97c43706-ebb5-484b-be66-2934fe6bfc10)
+![image](https://github.com/user-attachments/assets/9c250fcf-626b-4091-8557-51ae27d9fdca)
 
-32. Check the status of your job again if you'd like:
+32. Check the status of your job again. No time means that your job is done:
 
-![image](https://github.com/user-attachments/assets/95189698-3013-4978-9e14-8b6ec179a52f)
+![image](https://github.com/user-attachments/assets/24ece51b-d773-4214-b8ef-3f465d5c1aec)
 
-33. This means that your job is done:
+33. Enter the "ls" command and press "Enter" to see all of the new files that have been created:
 
-![image](https://github.com/user-attachments/assets/91448c62-55c2-4721-a17b-1e79d6ae2adb)
+![image](https://github.com/user-attachments/assets/efa72c19-61d8-459e-83ac-a06a5b8f2474)
 
-34. 
+34. It is now time to visualize our files in VisIt. Open up the two VisIt windows:
 
+![image](https://github.com/user-attachments/assets/6e66d843-7dc6-41e3-a76a-20622d6881fd)
 
+35. Click "Open":
 
+![image](https://github.com/user-attachments/assets/f01402b0-2871-433f-b465-f94da5c46afb)
 
+36. You should now see this screen:
 
+![image](https://github.com/user-attachments/assets/5f813dd3-cacd-4ae9-80e9-6fbda42141ae)
 
+37. Scroll down and select the "xdmf" files:
 
+![image](https://github.com/user-attachments/assets/73213ffe-a576-4422-bc77-81f81579a000)
 
+38. Press "OK". You should now see this screen come up:
 
+![image](https://github.com/user-attachments/assets/26c9a230-d227-4630-a3b9-8dd9fcd0865d)
 
+39. Change the Project ID and time limit again, then press "OK":
 
+![image](https://github.com/user-attachments/assets/3e2ce48f-6edc-41b7-9948-b9c905efd6b1)
 
+40. You should see this screen:
 
+![image](https://github.com/user-attachments/assets/b9800f5d-d931-4233-9f4b-b1f27e18c2bc)
 
+41. Delete the second variable that we added, which was "Pseudocolor - cons_density":
 
+![image](https://github.com/user-attachments/assets/e058b430-f6f2-44d1-8989-321ed9f59e91)
 
+42. Click "Draw" now:
 
+![image](https://github.com/user-attachments/assets/9aac8345-76f0-4bc1-b3b2-829190f85103)
 
+43. You should now see this screen:
 
+![image](https://github.com/user-attachments/assets/a0717fff-613c-4d80-ae12-c59443319411)
 
+44. Notice how we can now barely tell what our image is? That is because we changed the mesh from "5" to "3" (or whatever number you changed it to). Also notice how we have way more images now, and it runs faster?
 
+![image](https://github.com/user-attachments/assets/2b4f5164-a17e-464b-9174-633bc8bcbbec)
 
+45. Play around with the controls and what variables we can add, like "Pseudocolor - cons_density". Try to understand how changing the mesh affects our visualization. Think about the way our visualization looks, how fast it runs, how many images we get, etc. 
 
+![image](https://github.com/user-attachments/assets/c3ac72cc-4e47-488c-99ca-890ae7fcee89)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+46. Go ahead and repeat this instruction set with a different mesh level, or move onto the next parameter study. Also note, extreme values may break the visualization! Try to find out what happens if you try negative numbers, or really big numbers. Maybe it will crash? Maybe it will take a very long time to load? Experiment and find out!
 
 
 
