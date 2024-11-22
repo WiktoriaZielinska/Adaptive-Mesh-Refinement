@@ -98,43 +98,65 @@ You should now see this screen:
 
 19. This is what you will see once it has fully loaded:
 
-![image](https://github.com/user-attachments/assets/c5495115-ccd3-4256-9bbe-73ac31dc3e0f)
+![image](https://github.com/user-attachments/assets/6a17145b-a287-47f2-b6b1-f78d7a45f1f3)
 
 20. Click on the right play button next to the square in the middle. This is above the "Draw" button:
 
-![image](https://github.com/user-attachments/assets/b0ce6afa-67c4-432c-b89e-e259923668c9)
+![image](https://github.com/user-attachments/assets/f9c8b7d3-9ef7-44c9-abdd-f9cf7888e482)
 
 21. It will take some time for VisIt to load the next time step. You can see that it is done loading based on the information in the bottom left corner. You can see the next time step under "Window 1" where it says "00001" now:
 
-![image](https://github.com/user-attachments/assets/5fd53ddd-cdd2-4e69-be20-3e98ac2ed315)
+![image](https://github.com/user-attachments/assets/9839703c-80f7-4598-9c83-e95f296e91ff)
 
 22. VisIt will continue to go through each time step until it gets to the end or until you stop it with the center square button to the left of the right play button:
 
-![image](https://github.com/user-attachments/assets/797e1152-a81e-422d-bfc1-861f4e5fae78)
+![image](https://github.com/user-attachments/assets/eba60029-c68c-4826-902f-59b6d2f8e3d2)
 
 23. To start the visualization from the beginning, click on the furthest play button on the left:
 
-![image](https://github.com/user-attachments/assets/8650ee9c-c4e3-4039-ae99-c2aab1e4faab)
+![image](https://github.com/user-attachments/assets/ba9b3f03-c60e-4fb3-bc40-e9bf12e1a1a0)
 
 24. VisIt will automatically continue with the visualization if you haven't clicked on the center square yet:
 
-![image](https://github.com/user-attachments/assets/44f6ecb7-a0d7-42df-90bf-e4411f276209)
+![image](https://github.com/user-attachments/assets/8ea9bc3e-1c98-4073-b337-a2324790a2f7)
 
 25. Clicking on the left play button to the left of the square will simply make the visualization go backwards from the time step it is currently at:
 
-![image](https://github.com/user-attachments/assets/5f2559e7-1566-4b5b-97ec-24e633f02deb)
+![image](https://github.com/user-attachments/assets/91083c62-f4f2-4d00-bc81-799c4b8cf5cb)
 
 26. Now let's try adding another variable. Click on "Add" then click on "Pseudocolor" then click on "cons_density":
 
-![image](https://github.com/user-attachments/assets/2d3399b7-5995-4a60-a09b-14b974cca4af)
+![image](https://github.com/user-attachments/assets/2e9f2083-c392-40c4-9146-eced64ead907)
 
 27. After you do that and click on "Draw", you should now see this:
 
-![image](https://github.com/user-attachments/assets/64900267-2ef6-48f3-bbcc-418c1709c7c8)
+![image](https://github.com/user-attachments/assets/016f2c01-6271-4db5-96d4-dfe72b2357dc)
 
 28. If you want to see how this visualization looks like, then go ahead and play around with the play buttons:
 
-![image](https://github.com/user-attachments/assets/e644e529-1c33-4b94-a60c-3eb6a955b6ce)
+![image](https://github.com/user-attachments/assets/d20c003c-cc4a-482e-81da-79a09588481b)
+
+29. Congratulations! You have now finished the basic tutorial on how to visualize with VisIt. Now, move onto the Parameter Study folder.  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
