@@ -44,7 +44,7 @@ or this:
 
 ![image](https://github.com/user-attachments/assets/b5bf183f-bc6b-47ea-9a72-5242f72c8439)
 
-12. Let's move the last file over. Type: mv AthenaPK-2798704.out originalFiles/
+12. Let's move the 2 last files over. Type: mv AthenaPK-2798704.out originalFiles/
 
 ![image](https://github.com/user-attachments/assets/4ab00351-d630-4a86-9e06-986cd903c319)
 
@@ -56,21 +56,33 @@ or this:
 
 ![image](https://github.com/user-attachments/assets/96df0f55-d383-49e1-906e-320c4d2b310a)
 
-We will not worry about the new folder that we created unless we want to go back to see its contents.
+15. Type: mv run.sh originalFiles/
 
-15. Let's create a new run.sh, type: vim runAdaptiveMeshRefinement.sh
+![image](https://github.com/user-attachments/assets/81ce4f15-4afb-4d78-a685-a4d220fea341)
+
+16. Press "Enter" on the keyboard:
+
+![image](https://github.com/user-attachments/assets/a07e71ed-593c-4694-b2c9-520f8eabf7b5)
+
+17. Enter the "ls" command and press "Enter" to see that your file has been moved:
+
+![image](https://github.com/user-attachments/assets/0e0ccbf0-1253-4af5-baea-577b7f6acb77)
+
+We will not worry about the new folder that we just created, unless we want to go back to it to review it.
+
+18. Let's create a new run.sh, type: vim runAdaptiveMeshRefinement.sh
 
 ![image](https://github.com/user-attachments/assets/ec2fd5be-043a-4a91-8cc3-e665ad22d57d)
 
-16. Press enter:
+19. Press enter:
 
 ![image](https://github.com/user-attachments/assets/fd92143b-5afa-41da-b2fd-e7246ade5344)
 
-17. Press "i" to edit:
+20. Press "i" to edit:
 
 ![image](https://github.com/user-attachments/assets/0f86590e-c379-468a-a986-bdbd72e006c3)
 
-18. Copy and paste the following:
+21. Copy and paste the following:
 
 ```
 #!/bin/bash
@@ -122,13 +134,13 @@ srun -N1 -n8 -c7 --ntasks-per-node=8 --gpus-per-node=8 --gpu-bind=closest ./athe
     -i /ccs/home/wiktoria_zielinska/athenapk/inputs/blast_image.in \
 ```
 
-19. Before saving, play around with this line:
+22. Before saving, play around with this line:
 
 ```
 parthenon/mesh/numlevel=5 \
 ```
 
-20. What happens if you change the "5" to a "3", or some other number? Try changing it to 3, or whatever number you decide on. Use the arrow keys to move around:
+23. What happens if you change the "5" to a "3", or some other number? Try changing it to 3, or whatever number you decide on. Use the arrow keys to move around:
 
 ```
 parthenon/mesh/numlevel=3 \
@@ -136,51 +148,51 @@ parthenon/mesh/numlevel=3 \
 
 ![image](https://github.com/user-attachments/assets/f531be6f-4dfb-47d4-abca-138cfc83f0f6)
 
-21. Press "Esc" on the keyboard:
+24. Press "Esc" on the keyboard:
 
 ![image](https://github.com/user-attachments/assets/0c573c29-b1bf-4367-b82f-c8fd955231b3)
 
-22. Type: :wq
+25. Type: :wq
 
 ![image](https://github.com/user-attachments/assets/34051b44-a232-40c6-888d-2701f7ffcb0b)
 
-23. Press "Enter" on the keyboard:
+26. Press "Enter" on the keyboard:
 
 ![image](https://github.com/user-attachments/assets/296be11f-d36d-434f-85b1-f037ddeed497)
 
-24. To confirm that your file is there, type: ls
+27. To confirm that your file is there, type: ls
 
 ![image](https://github.com/user-attachments/assets/17bb169d-6148-420d-bbf4-394ea689a704)
 
-25. Press "Enter" on the keyboard:
+28. Press "Enter" on the keyboard:
 
 ![image](https://github.com/user-attachments/assets/9ffca3a1-db2f-476c-8711-7907754cb316)
 
-26. Type: sbatch runAdaptiveMeshRefinement.sh
+29. Type: sbatch runAdaptiveMeshRefinement.sh
 
 ![image](https://github.com/user-attachments/assets/1573326d-dd52-4ec1-8777-f6e71cba92e9)
 
-27. Press "Enter" on the keyboard:
+30. Press "Enter" on the keyboard:
 
 ![image](https://github.com/user-attachments/assets/1247d1e7-3985-4e54-8da5-10d13728005d)
 
 Your job number may be different
 
-28. Check the status of your job by typing and entering: squeue -u USERNAME
+31. Check the status of your job by typing and entering: squeue -u USERNAME
 
 Type your username instead of "USERNAME"
 
 ![image](https://github.com/user-attachments/assets/97c43706-ebb5-484b-be66-2934fe6bfc10)
 
-29. Check the status of your job again if you'd like:
+32. Check the status of your job again if you'd like:
 
 ![image](https://github.com/user-attachments/assets/95189698-3013-4978-9e14-8b6ec179a52f)
 
-30. This means that your job is done:
+33. This means that your job is done:
 
 ![image](https://github.com/user-attachments/assets/91448c62-55c2-4721-a17b-1e79d6ae2adb)
 
-31. 
+34. 
 
 
 
