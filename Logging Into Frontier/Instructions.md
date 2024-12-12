@@ -155,7 +155,7 @@ set(CMAKE_CXX_FLAGS "${MACHINE_CXX_FLAGS}" CACHE STRING "Default flags for this 
 
 ![image](https://github.com/user-attachments/assets/c1512fca-2b9c-4384-9f6e-2fabf0ac8ef7)
 
-18. Type: wq
+18. Type: :wq
 
 ![image](https://github.com/user-attachments/assets/ea8b349b-9249-4e91-9bff-cefe1c3b1ad5)
 
@@ -245,9 +245,21 @@ srun -N1 -n8 -c7 --ntasks-per-node=8 --gpus-per-node=8 --gpu-bind=closest ./athe
     -i /ccs/home/wiktoria_zielinska/athenapk/inputs/blast_image.in \
 ```
 
-![image](https://github.com/user-attachments/assets/3c2d759a-c9b2-484a-9621-050589e60eb5)
+![image](https://github.com/user-attachments/assets/9ec13d85-6455-4dce-b6c1-295688e938ca)
 
-26. To run, type: sbatch run.sh
+26. Press ESC
+
+![image](https://github.com/user-attachments/assets/90c77faa-51c9-408a-a7cf-9ff6cce1ff23)
+
+27. Type: :wq
+
+![image](https://github.com/user-attachments/assets/7864eff0-9dd3-42d9-a4c1-b4414d32b503)
+
+28. Press Enter
+
+![image](https://github.com/user-attachments/assets/a0cb31a9-f4ef-485c-8a11-1a74837fe4f6)
+
+29. To run, type: sbatch run.sh
 
 ![image](https://github.com/user-attachments/assets/8cb77230-a0a7-41ed-96d1-e34aaeff52dd)
 
@@ -257,7 +269,7 @@ When run, you’ll see output like the below in the directory you ran from after
 
 The numbers may or may not be different
 
-27. To see the status of your job, type: squeue -u USERNAME
+30. To see the status of your job, type: squeue -u USERNAME
 
 Where USERNAME is the same username that you used to log into Frontier.
 
@@ -265,4 +277,4 @@ Your output will either show a time value, or simply say "TIME". You will know w
 
 ![image](https://github.com/WiktoriaZielinska/Adaptive-Mesh-Refinement/assets/112288108/b54c2827-7524-498b-b56e-1a8cd50b7f04)
 
-28. Congratulations! You are now ready to visualize using VisIt!
+31. Congratulations! You are now ready to visualize using VisIt!
