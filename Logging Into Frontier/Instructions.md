@@ -51,7 +51,7 @@ Reconnect again with step 2:
 
 11. Type: module load cray-hdf5-parallel
 
-![image](https://github.com/user-attachments/assets/9ea35c03-05ec-49e4-a96b-07a188a803b1)
+![image](https://github.com/user-attachments/assets/3da1f67b-393d-410d-8c62-e9c685c3e858)
 
 12. cd into athenapk if you are not already there.
 
@@ -167,7 +167,11 @@ This saves this file and allows you to exit.
 
 20. Type: cmake -DMACHINE_CFG=./FrontierAndCrusher.cmake -DCMAKE_CXX_FLAGS="-I${HDF5_DIR}/include" -DCMAKE_EXE_LINKER_FLAGS="-L${HDF5_DIR}/lib -lhdf5 -lhdf5_hl" -DPARTHENON_ENABLE_PYTHON_MODULE_CHECK=OFF -Bbuild
 
-21. Type: cmake --build build -j 32
+![image](https://github.com/user-attachments/assets/beac861e-b7e8-4c84-84c6-51f3936bc090)
+
+22. Type: cmake --build build -j 32
+
+![image](https://github.com/user-attachments/assets/57afbb1f-dc49-4e28-9dbb-e9c6ba5cbcce)
 
 This will create a folder in your athenapk directory, which is where you can find the athenaPK executable in the bin directory (i.e., cd build/bin).
 
