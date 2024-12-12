@@ -169,7 +169,7 @@ This saves this file and allows you to exit.
 
 ![image](https://github.com/user-attachments/assets/beac861e-b7e8-4c84-84c6-51f3936bc090)
 
-22. Type: cmake --build build -j 32
+21. Type: cmake --build build -j 32
 
 ![image](https://github.com/user-attachments/assets/57afbb1f-dc49-4e28-9dbb-e9c6ba5cbcce)
 
