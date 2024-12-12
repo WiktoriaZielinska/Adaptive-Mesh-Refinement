@@ -49,7 +49,7 @@ Reconnect again with step 2:
 
 ![image](https://github.com/user-attachments/assets/e374d65d-f350-442c-af97-a90aadca58f1)
 
-11. Type: module load hdf5
+11. Type: module load cray-hdf5-parallel
 
 ![image](https://github.com/user-attachments/assets/9ea35c03-05ec-49e4-a96b-07a188a803b1)
 
@@ -165,21 +165,25 @@ set(CMAKE_CXX_FLAGS "${MACHINE_CXX_FLAGS}" CACHE STRING "Default flags for this 
 
 This saves this file and allows you to exit.
 
+20. Type: cmake -DMACHINE_CFG=./FrontierAndCrusher.cmake -DCMAKE_CXX_FLAGS="-I${HDF5_DIR}/include" -DCMAKE_EXE_LINKER_FLAGS="-L${HDF5_DIR}/lib -lhdf5 -lhdf5_hl" -DPARTHENON_ENABLE_PYTHON_MODULE_CHECK=OFF -Bbuild
+
+21. Type: cmake --build build -j 32
+
 This will create a folder in your athenapk directory, which is where you can find the athenaPK executable in the bin directory (i.e., cd build/bin).
 
-20. Type: cd build
+22. Type: cd build
 
 ![image](https://github.com/user-attachments/assets/756e6780-a6d3-4e17-a46f-0dbef9a08196)
 
-21. Type: cd bin
+23. Type: cd bin
 
 ![image](https://github.com/user-attachments/assets/9ac7ae8a-bb3b-45ea-a33d-5b030d3d7965)
 
-22. Type: vim run.sh
+24. Type: vim run.sh
 
 ![image](https://github.com/user-attachments/assets/511959e4-8cc9-4eed-af55-6403342c0cb4)
 
-23. Press the letter “i” on the keyboard
+25. Press the letter “i” on the keyboard
 
 ![image](https://github.com/user-attachments/assets/f5575142-3e4b-437c-929e-247b732203ab)
 
@@ -203,7 +207,7 @@ module load cpe/23.09
 module load PrgEnv-amd
 module load craype-accel-amd-gfx90a
 module load cmake
-module load hdf5
+module load cray-hdf5-parallel
 module load ums
 module load ums022
 module -t list
@@ -211,7 +215,7 @@ module -t list
 
 date
 
-export MPICH_GPU_SUPPORT_ENABLED=1
+export LD_LIBRARY_PATH=$CRAY_LD_LIBRARY_PATH:$LD_LIBRARY_PATH
 
 srun -N1 -n8 -c7 --ntasks-per-node=8 --gpus-per-node=8 --gpu-bind=closest ./athenaPK \
     -i /ccs/home/wiktoria_zielinska/athenapk/inputs/blast_image.in \
@@ -239,7 +243,7 @@ srun -N1 -n8 -c7 --ntasks-per-node=8 --gpus-per-node=8 --gpu-bind=closest ./athe
 
 ![image](https://github.com/user-attachments/assets/3c2d759a-c9b2-484a-9621-050589e60eb5)
 
-24. To run, type: sbatch run.sh
+26. To run, type: sbatch run.sh
 
 ![image](https://github.com/user-attachments/assets/8cb77230-a0a7-41ed-96d1-e34aaeff52dd)
 
@@ -249,7 +253,7 @@ When run, you’ll see output like the below in the directory you ran from after
 
 The numbers may or may not be different
 
-25. To see the status of your job, type: squeue -u USERNAME
+27. To see the status of your job, type: squeue -u USERNAME
 
 Where USERNAME is the same username that you used to log into Frontier.
 
@@ -257,4 +261,4 @@ Your output will either show a time value, or simply say "TIME". You will know w
 
 ![image](https://github.com/WiktoriaZielinska/Adaptive-Mesh-Refinement/assets/112288108/b54c2827-7524-498b-b56e-1a8cd50b7f04)
 
-26. Congratulations! You are now ready to visualize using VisIt!
+28. Congratulations! You are now ready to visualize using VisIt!
