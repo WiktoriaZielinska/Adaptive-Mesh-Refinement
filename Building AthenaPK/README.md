@@ -1,6 +1,6 @@
 # Frontier Setup Guide
 
-## Steps 1-2: Log into Frontier
+## Steps 1 - 2: Log into Frontier
 
 ### 1. Open a terminal on your computer
 
@@ -28,7 +28,7 @@ If disconnected, reconnect using the same SSH `command`:
 
 ---
 
-## Steps 3-4: Clone the Tutorial Repository
+## Steps 3 - 4: Clone the Tutorial Repository
 
 ### 3. Type: ```git clone https://github.com/parthenon-hpc-lab/athenapk.git athenapk```
 
@@ -40,7 +40,7 @@ If disconnected, reconnect using the same SSH `command`:
 
 ---
 
-## Steps 5-21: Setup the Environment for Building AthenaPK
+## Steps 5 - 21: Setup the Environment for Building AthenaPK
 
 ### 5. Type: ```git submodule init```
 
@@ -194,7 +194,7 @@ This will create a folder in your athenapk directory, which is where you can fin
 
 ---
 
-## Steps 22-24: Run AthenaPK
+## Steps 22 - 24: Run AthenaPK
 
 ### 22. Type: ```cd build```
 
@@ -210,7 +210,7 @@ This will create a folder in your athenapk directory, which is where you can fin
 
 ---
 
-## Steps 25-31: Submit and Monitor the Job
+## Steps 25 - 31: Submit and Monitor the Job
 
 ### 25. Press the letter ```i``` on the keyboard
 
