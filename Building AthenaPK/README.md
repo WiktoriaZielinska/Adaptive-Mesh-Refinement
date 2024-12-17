@@ -12,7 +12,7 @@ Example: **Command Prompt (CMD)**:
 
 ### 2. Log into Frontier using your XCAMS/UCAMS username and password:
 
-ssh USERNAME@frontier.olcf.ornl.gov
+```ssh USERNAME@frontier.olcf.ornl.gov```
 
 NOTES:
 The password is your pin + your 6 digit RSA code
