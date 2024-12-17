@@ -1,6 +1,8 @@
-1. Welcome to the parameter exercise on adaptive mesh refinement!
+# Welcome to the parameter exercise on adaptive mesh refinement!
 
-2. Open your terminal back up. You should see something like this:
+## Steps 1 - 4: Terminal Setup and File Structure
+
+### Step 1: Open your terminal back up. You should see something like this:
 
 ![image](https://github.com/user-attachments/assets/7a4e1067-bbce-4330-ba20-01835b96fa13)
 
@@ -8,81 +10,93 @@ or this:
 
 ![image](https://github.com/user-attachments/assets/617830db-b6c6-4e94-ae2c-a50e6f4eb343)
 
-3. To figure out where you are, type: pwd
+### Step 2: To figure out where you are, type: pwd
 
 ![image](https://github.com/user-attachments/assets/af8fa262-744e-4086-b619-4d009a6a179e)
 
-4. You should be in this folder:
+### Step 3: You should be in this folder:
 
 ![image](https://github.com/user-attachments/assets/4ca3bf0a-1a3a-4d0d-8efd-f84d80fb43fe)
 
-5. Let's move our current files into a new folder. Type mkdir originalFiles
+---
+
+## Steps 5 - 11: Organizing Files
+
+### Step 4: Let's move our current files into a new folder. Type mkdir originalFiles
 
 ![image](https://github.com/user-attachments/assets/5e8e7ed5-8b9c-4296-baaf-4bd0ee88d426)
 
-6. Press "Enter" on the keyboard:
+### Step 5: Press "Enter" on the keyboard:
 
 ![image](https://github.com/user-attachments/assets/1c5ada82-c42f-420c-8bbb-57504c0449c3)
 
-7. Type: ls
+### Step 6: Type: ls
 
 ![image](https://github.com/user-attachments/assets/818ee114-ac44-439e-ab3a-bd43907abee1)
 
-8. Press "Enter" on the keyboard:
+### Step 7: Press "Enter" on the keyboard:
 
 ![image](https://github.com/user-attachments/assets/291c3c84-01f6-4421-83ba-e667985e241d)
 
-9. You should see the new folder that we created. Let's move our files into that folder. Type: mv parthenon.out0.0000* originalFiles/
+### Step 8: You should see the new folder that we created. Let's move our files into that folder. Type: mv parthenon.out0.0000* originalFiles/
 
 ![image](https://github.com/user-attachments/assets/60976312-ea6a-48ea-8927-b92b514e2332)
 
-10. Press "Enter" on the keyboard:
+### Step 9: Press "Enter" on the keyboard:
 
 ![image](https://github.com/user-attachments/assets/47e99af4-0e4f-4b82-847a-af88857faf44)
 
-11. Enter the "ls" command and press "Enter" to see that your files have been moved:
+### Step 10: Enter the "ls" command and press "Enter" to see that your files have been moved:
 
 ![image](https://github.com/user-attachments/assets/b5bf183f-bc6b-47ea-9a72-5242f72c8439)
 
-12. Let's move the 2 last files over. Type: mv AthenaPK-2798704.out originalFiles/
+---
+
+## Steps 12 - 17: Moving Additional Files
+
+### Step 11: Let's move the 2 last files over. Type: mv AthenaPK-2798704.out originalFiles/
 
 ![image](https://github.com/user-attachments/assets/4ab00351-d630-4a86-9e06-986cd903c319)
 
-13. Press "Enter" on the keyboard:
+### Step 12: Press "Enter" on the keyboard:
 
 ![image](https://github.com/user-attachments/assets/c9e297d4-5d2b-47f1-a376-b48678392115)
 
-14. Enter the "ls" command and press "Enter" to see that your file has been moved:
+### Step 13: Enter the "ls" command and press "Enter" to see that your file has been moved:
 
 ![image](https://github.com/user-attachments/assets/96df0f55-d383-49e1-906e-320c4d2b310a)
 
-15. Type: mv run.sh originalFiles/
+### Step 14: Type: mv run.sh originalFiles/
 
 ![image](https://github.com/user-attachments/assets/81ce4f15-4afb-4d78-a685-a4d220fea341)
 
-16. Press "Enter" on the keyboard:
+### Step 15: Press "Enter" on the keyboard:
 
 ![image](https://github.com/user-attachments/assets/a07e71ed-593c-4694-b2c9-520f8eabf7b5)
 
-17. Enter the "ls" command and press "Enter" to see that your file has been moved:
+### Step 16: Enter the "ls" command and press "Enter" to see that your file has been moved:
 
 ![image](https://github.com/user-attachments/assets/0e0ccbf0-1253-4af5-baea-577b7f6acb77)
 
-We will not worry about the new folder that we just created, unless we want to go back to it to review it.
+---
 
-18. Let's create a new run.sh, type: vim runAdaptiveMeshRefinement.sh
+## Steps 18 - 27: Creating and Verifying the New Run Script
+
+### Step 17: We will not worry about the new folder that we just created, unless we want to go back to it to review it.
+
+### Step 18: Let's create a new run.sh, type: vim runAdaptiveMeshRefinement.sh
 
 ![image](https://github.com/user-attachments/assets/ec2fd5be-043a-4a91-8cc3-e665ad22d57d)
 
-19. Press enter:
+### Step 19: Press enter:
 
 ![image](https://github.com/user-attachments/assets/fd92143b-5afa-41da-b2fd-e7246ade5344)
 
-20. Press "i" to edit:
+### Step 20: Press "i" to edit:
 
 ![image](https://github.com/user-attachments/assets/0f86590e-c379-468a-a986-bdbd72e006c3)
 
-21. Copy and paste the following:
+### Step 21: Copy and paste the following:
 
 ```
 #!/bin/bash
@@ -134,13 +148,13 @@ srun -N1 -n8 -c7 --ntasks-per-node=8 --gpus-per-node=8 --gpu-bind=closest ./athe
     -i /ccs/home/wiktoria_zielinska/athenapk/inputs/blast_image.in \
 ```
 
-22. Before saving, play around with this line:
+### Step 22: Before saving, play around with this line:
 
 ```
 parthenon/mesh/numlevel=5 \
 ```
 
-23. What happens if you change the "5" to a "3", or some other number? Try changing it to 3, or whatever number you decide on. Use the arrow keys to move around:
+### Step 23: What happens if you change the "5" to a "3", or some other number? Try changing it to 3, or whatever number you decide on. Use the arrow keys to move around:
 
 ```
 parthenon/mesh/numlevel=3 \
@@ -148,96 +162,105 @@ parthenon/mesh/numlevel=3 \
 
 ![image](https://github.com/user-attachments/assets/f531be6f-4dfb-47d4-abca-138cfc83f0f6)
 
-24. Press "Esc" on the keyboard:
+### Step 24: Press "Esc" on the keyboard:
 
 ![image](https://github.com/user-attachments/assets/0c573c29-b1bf-4367-b82f-c8fd955231b3)
 
-25. Type: :wq
+### Step 25: Type: :wq
 
 ![image](https://github.com/user-attachments/assets/34051b44-a232-40c6-888d-2701f7ffcb0b)
 
-26. Press "Enter" on the keyboard:
+### Step 26: Press "Enter" on the keyboard:
 
 ![image](https://github.com/user-attachments/assets/296be11f-d36d-434f-85b1-f037ddeed497)
 
-27. To confirm that your file is there, type: ls
+### Step 27: To confirm that your file is there, type: ls
 
 ![image](https://github.com/user-attachments/assets/17bb169d-6148-420d-bbf4-394ea689a704)
 
-28. Press "Enter" on the keyboard:
+---
+
+## Steps 28 - 34: Job Submission and Visualization
+
+### Step 28: Press "Enter" on the keyboard:
 
 ![image](https://github.com/user-attachments/assets/ca2ac6de-fbd7-4558-9b23-4e601c25d609)
 
-29. Type: sbatch runAdaptiveMeshRefinement.sh
+### Step 29: Type: sbatch runAdaptiveMeshRefinement.sh
 
 ![image](https://github.com/user-attachments/assets/1573326d-dd52-4ec1-8777-f6e71cba92e9)
 
-30. Press "Enter" on the keyboard:
+### Step 30: Press "Enter" on the keyboard:
 
 ![image](https://github.com/user-attachments/assets/c031f7d5-bf57-40ac-af65-bdf0fc51bbb6)
 
-Your job number may be different
+### Step 31: Your job number may be different
 
-31. Check the status of your job by typing and entering: squeue -u USERNAME
+### Step 32: Check the status of your job by typing and entering: squeue -u USERNAME
 
 Type your username instead of "USERNAME"
 
 ![image](https://github.com/user-attachments/assets/9c250fcf-626b-4091-8557-51ae27d9fdca)
 
-32. Check the status of your job again. No time means that your job is done:
+### Step 33: Check the status of your job again. No time means that your job is done:
 
 ![image](https://github.com/user-attachments/assets/24ece51b-d773-4214-b8ef-3f465d5c1aec)
 
-33. Enter the "ls" command and press "Enter" to see all of the new files that have been created:
+---
+
+## Steps 35 - 46: Visualizing the Results in VisIt
+
+### Step 34: Enter the "ls" command and press "Enter" to see all of the new files that have been created:
 
 ![image](https://github.com/user-attachments/assets/efa72c19-61d8-459e-83ac-a06a5b8f2474)
 
-34. It is now time to visualize our files in VisIt. Open up the two VisIt windows:
+### Step 35: It is now time to visualize our files in VisIt. Open up the two VisIt windows:
 
 ![image](https://github.com/user-attachments/assets/6e66d843-7dc6-41e3-a76a-20622d6881fd)
 
-35. Click "Open":
+### Step 36: Click "Open":
 
 ![image](https://github.com/user-attachments/assets/f01402b0-2871-433f-b465-f94da5c46afb)
 
-36. You should now see this screen:
+### Step 37: You should now see this screen:
 
 ![image](https://github.com/user-attachments/assets/5f813dd3-cacd-4ae9-80e9-6fbda42141ae)
 
-37. Scroll down and select the "xdmf" files:
+### Step 38: Scroll down and select the "xdmf" files:
 
 ![image](https://github.com/user-attachments/assets/73213ffe-a576-4422-bc77-81f81579a000)
 
-38. Press "OK". You should now see this screen come up:
+### Step 39: Press "OK". You should now see this screen come up:
 
 ![image](https://github.com/user-attachments/assets/26c9a230-d227-4630-a3b9-8dd9fcd0865d)
 
-39. Change the Project ID and time limit again, then press "OK":
+### Step 40: Change the Project ID and time limit again, then press "OK":
 
 ![image](https://github.com/user-attachments/assets/3e2ce48f-6edc-41b7-9948-b9c905efd6b1)
 
-40. You should see this screen:
+### Step 41: You should see this screen:
 
 ![image](https://github.com/user-attachments/assets/b9800f5d-d931-4233-9f4b-b1f27e18c2bc)
 
-41. Delete the second variable that we added, which was "Pseudocolor - cons_density":
+### Step 42: Delete the second variable that we added, which was "Pseudocolor - cons_density":
 
 ![image](https://github.com/user-attachments/assets/e058b430-f6f2-44d1-8989-321ed9f59e91)
 
-42. Click "Draw" now:
+### Step 43: Click "Draw" now:
 
 ![image](https://github.com/user-attachments/assets/9aac8345-76f0-4bc1-b3b2-829190f85103)
 
-43. You should now see this screen:
+### Step 44: You should now see this screen:
 
 ![image](https://github.com/user-attachments/assets/a0717fff-613c-4d80-ae12-c59443319411)
 
-44. Notice how we can now barely tell what our image is? That is because we changed the mesh from "5" to "3" (or whatever number you changed it to). Also notice how we have way more images now, and it runs faster?
+### Step 45: Notice how we can now barely tell what our image is? That is because we changed the mesh from "5" to "3" (or whatever number you changed it to). Also notice how we have way more images now, and it runs faster?
 
 ![image](https://github.com/user-attachments/assets/2b4f5164-a17e-464b-9174-633bc8bcbbec)
 
-45. Play around with the controls and what variables we can add, like "Pseudocolor - cons_density". Try to understand how changing the mesh affects our visualization. Think about the way our visualization looks, how fast it runs, how many images we get, etc. 
+### Step 46: Play around with the controls and what variables we can add, like "Pseudocolor - cons_density". Try to understand how changing the mesh affects our visualization. Think about the way our visualization looks, how fast it runs, how many images we get, etc. 
 
 ![image](https://github.com/user-attachments/assets/c3ac72cc-4e47-488c-99ca-890ae7fcee89)
 
-46. Go ahead and repeat this instruction set with a different mesh level, or move onto the next parameter study. Also note, extreme values may break the visualization! Try to find out what happens if you try negative numbers, or really big numbers. Maybe it will crash? Maybe it will take a very long time to load? Experiment and find out!
+### Step 47: Go ahead and repeat this instruction set with a different mesh level, or move onto the next parameter study. Also note, extreme values may break the visualization! Try to find out what happens if you try negative numbers, or really big numbers. Maybe it will crash? Maybe it will take a very long time to load? Experiment and find out!
+
