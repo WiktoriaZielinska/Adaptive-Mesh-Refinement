@@ -1,5 +1,9 @@
 # Frontier Setup Guide
 
+This guide provides step-by-step instructions to set up and run scientific simulations on Frontier, a high-performance computing (HPC) system at ORNL. It includes logging in securely, downloading simulation code, configuring the environment, compiling the code, running simulations, and monitoring job status.
+
+---
+
 ## Steps 1 - 2: Log into Frontier  
 This section focuses on accessing Frontier, a high-performance computing (HPC) system at ORNL designed for running advanced scientific simulations. Logging in is the first step to begin your work. You’ll use a terminal application to connect securely to Frontier via SSH. Frontier requires multi-factor authentication (MFA) for access, which means you’ll need to provide your XCAMS/UCAMS username along with a combination of a PIN and a unique RSA code for verification.  
 
