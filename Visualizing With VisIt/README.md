@@ -1,11 +1,11 @@
 # VisIt Visualization Guide  
 
-This guide walks you through the process of visualizing your simulation data using VisIt, a scientific visualization tool. Each step includes detailed explanations and relevant screenshots to help you successfully render and analyze your data.  
+This section introduces the purpose of the guide—helping you visualize your simulation data using VisIt. It emphasizes that the guide will walk you through launching the application, connecting to the server, navigating directories, selecting files, and visualizing data. Visualization is crucial for understanding and analyzing the results of computational simulations.
 
 ---
 
 ## Steps 1 - 3: Opening and Launching VisIt
-Once your simulation job has completed, you’re ready to visualize the results using VisIt. These steps guide you through launching the application and connecting to the correct host profile.  
+These steps help you launch the VisIt application and connect to the correct host profile. This is important because you need to use the right server configuration to access your simulation data. Without these steps, you may not be able to connect to the correct environment, hindering your ability to visualize and analyze results.
 
 ### 1. After submitting your job and it finishes, you are now ready to open VisIt and see your simulation.
 
@@ -22,7 +22,7 @@ Once your simulation job has completed, you’re ready to visualize the results 
 ---
 
 ## Steps 4 - 7: Connecting to the Server
-After launching VisIt, you must establish a connection to the server hosting your simulation files.  
+In this section, you establish a connection to the server where your simulation files are stored. You will use credentials like a 6-digit PIN and an RSA token PIN to authenticate and connect. This step is necessary for accessing your simulation data remotely, ensuring that you can load your files into VisIt for visualization. Proper server connection is key for managing data access securely and reliably.
 
 ### 4. Now, click on ```Open```.
 
@@ -60,7 +60,7 @@ Going back to VisIt, you should see this screen:
 ---
 
 ## Steps 8 - 10: Navigating the Directories
-After connecting to the server, locate your simulation files. These steps guide you through the directory structure.  
+Once connected to the server, you need to navigate through the directory structure to locate your simulation files. This section guides you step-by-step to reach the correct folder. Navigating directories correctly is essential because it allows you to find and load the specific files that contain your simulation output. Understanding this process ensures that you’re working with the right data and files.
 
 ### 8. Click on ```athenapk``` in the ```Directories```:
 
@@ -81,7 +81,8 @@ You should now see this screen:
 ---
 
 ## Steps 11 - 12: Selecting the Files for Visualization
-Now that you’ve located your directories, choose the specific files needed for visualization.  
+After locating the correct directories, you select the simulation files you need for visualization. In these steps, you’ll choose the ```.xdmf``` files and set the appropriate time for visualization. This step is crucial because selecting the right files and time ensures that you’re visualizing the correct simulation data. This choice impacts the accuracy and relevance of your results.
+
 
 ### 11. In ```Files```, scroll down and click on the ```parthenon``` files that have ```"xdmf"``` in them. Then click on ```OK```:
 
@@ -94,7 +95,7 @@ Now that you’ve located your directories, choose the specific files needed for
 ---
 
 ## Steps 13 - 14: Visualizing the Data
-You’re now ready to load and visualize your simulation data in VisIt.  
+This section explains how to load and visualize the simulation data in VisIt. Once the data is loaded, you can begin to see the results of your simulation. Visualization is the core step for analyzing simulation results, allowing you to visually interpret complex data in the form of plots, meshes, and other representations.
 
 ### 13. This screen will pop up, and it will shortly disappear when VisIt is ready to visualize your data:
 
@@ -107,7 +108,7 @@ You’re now ready to load and visualize your simulation data in VisIt.
 ---
 
 ## Steps 15 - 18: Adding Visualization Variables
-You can enhance your visualization by adding data variables such as mesh structure or pseudocolor plots.  
+Here, you learn how to add various visualization variables, such as mesh structure, to improve the depth of your analysis. These steps allow you to explore different aspects of the data and focus on key variables of interest. This is important because adding different variables provides a richer, more detailed view of the simulation, helping you to identify trends and insights that might not be immediately apparent.
 
 ### 15. Click on ```Add```:
 
@@ -128,6 +129,7 @@ You can enhance your visualization by adding data variables such as mesh structu
 ---
 
 ## Steps 19 - 22: Controlling the Animation and Time Steps
+Once you have the data visualized, this section teaches you how to control the animation and navigate through different time steps. Controlling time steps is crucial for understanding how the simulation evolves over time. By adjusting the animation, you can focus on specific events or time points, which is key to analyzing dynamic processes in simulations.
 
 ### 19. It will take a few seconds to load:
 
@@ -148,7 +150,7 @@ You can enhance your visualization by adding data variables such as mesh structu
 ---
 
 ## Steps 23 - 26: Starting, Stopping, and Reversing the Visualization
-Once your visualization is loaded, you can control the playback of time steps. These steps explain how to manage playback and navigate through time steps.  
+These steps explain how to control the playback of your visualization, including starting, stopping, or reversing it. The ability to manage playback lets you focus on particular parts of the simulation timeline, helping you to understand how variables change over time. This control enhances the flexibility and usability of VisIt as a tool for in-depth simulation analysis.
 
 ### 23. VisIt will continue to go through each time step until it gets to the end or until you stop it with the center square button to the left of the right play button:
 
@@ -169,7 +171,7 @@ Once your visualization is loaded, you can control the playback of time steps. T
 ---
 
 ## Steps 27 - 29: Adding Additional Variables and Playing with Visualization
-You can enhance your visualization by adding more variables and experimenting with the playback.  
+In this section, you learn how to further enhance the visualization by adding additional variables like density. This allows you to compare different variables side-by-side and experiment with the visual outputs. Adding extra variables improves the quality of the analysis by providing multiple perspectives on the simulation data.
 
 ### 27. Now let's try adding another variable. Click on ```Add``` then click on ```Pseudocolor``` then click on ```cons_density```:
 
