@@ -1,6 +1,11 @@
 # Welcome to the parameter exercise on adaptive mesh refinement!
 
+This section introduces the overall goal of the tutorial—setting up and running a simulation with adaptive mesh refinement using the AthenaPK code. The steps involve preparing the environment, organizing files, running the simulation, and visualizing the results. This foundational knowledge is essential for understanding how to work with computational simulations in a structured and efficient manner.
+
+---
+
 ## Steps 1 - 3: Terminal Setup and File Structure
+This section is all about familiarizing yourself with the terminal and ensuring you're in the correct directory. It helps establish the correct working environment and ensures you are in the right location within the filesystem. This is the first step in organizing your files and executing commands effectively. Without understanding file structure, you risk running commands in the wrong place or not being able to find your files.
 
 ### 1. Open your terminal back up. You should see something like this:
 
@@ -21,6 +26,7 @@ or this:
 ---
 
 ## Steps 4 - 10: Organizing Files
+Here, you're learning how to organize files into different directories using basic commands like ```mkdir``` and ```mv```. Organizing files is crucial for maintaining clarity and structure in your project. In large-scale simulations, clutter can lead to confusion, difficulty in locating files, and potential errors in execution. This step ensures that your working directory is clean and your files are logically organized, making it easier to manage simulations and results.
 
 ### 4. Let's move our current files into a new folder. Type: ```mkdir originalFiles```
 
@@ -53,6 +59,7 @@ or this:
 ---
 
 ## Steps 11 - 16: Moving Additional Files
+This section focuses on continuing the file organization by moving additional necessary files into the designated folder. It's important because every file used for the simulation needs to be in the correct place for easy access. Ensuring your files are properly grouped helps prevent errors and makes the project more manageable. You are learning how to manipulate your file structure further for better organization.
 
 ### 11. Let's move the 2 last files over. Type: ```mv AthenaPK-2798704.out originalFiles/```
 
@@ -83,6 +90,7 @@ We will not worry about the new folder that we just created, unless we want to g
 ---
 
 ## Steps 17 - 26: Creating and Verifying the New Run Script
+In this section, you're learning to create and edit a new run script ```runAdaptiveMeshRefinement.sh```. This script is crucial because it defines how the simulation is executed. It specifies parameters like the number of processors, simulation time, mesh levels, and other key settings that control how the simulation runs. By creating this script, you ensure that your simulation is run with the desired settings, and you learn how to make modifications to optimize or adjust the simulation setup.
 
 ### 17. Let's create a new run.sh, type: ```vim runAdaptiveMeshRefinement.sh```
 
@@ -181,6 +189,7 @@ parthenon/mesh/numlevel=3 \
 ---
 
 ## Steps 27 - 31: Job Submission and Visualization
+Once your run script is prepared, this section walks you through submitting the job to the cluster using ```sbatch```. This is a critical step because it sends your simulation to the cluster to be executed. Learning how to submit jobs and check their status is essential for running large simulations that require computing resources. Monitoring job status allows you to ensure that everything is running smoothly and that the job is completed successfully.
 
 ### 27. Press ```Enter``` on the keyboard:
 
@@ -209,6 +218,7 @@ Type your username instead of "USERNAME"
 ---
 
 ## Steps 32 - 45: Visualizing the Results in VisIt
+After your simulation completes, you need to visualize the results to analyze the data. This section teaches you how to open your simulation output in VisIt, a powerful tool for visualizing scientific data. Visualization is critical for understanding the results of your simulation, spotting trends, and interpreting complex data. By interacting with VisIt, you can manipulate the data and gain insights into how your mesh refinement and simulation parameters impact the results. This section encourages exploration of the visualization tools, helping you understand how simulation adjustments affect the output.
 
 ### 32. Enter the ```ls``` command and press ```Enter``` to see all of the new files that have been created:
 
