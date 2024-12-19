@@ -280,13 +280,13 @@ srun -N1 -n8 -c7 --ntasks-per-node=8 --gpus-per-node=8 --gpu-bind=closest ./athe
 
 **NOTES:**
 
-You’ll need to replace the srun parameter pointing to the input with the path to your input (i.e.,  -i /<path-to-your-athenapk-folder>/athenapk/inputs/blast_image.in \)
+You’ll need to replace the srun parameter pointing to the input with the path to your input (i.e.,  -i /<path-to-your-athenapk-folder>/athenapk/inputs/blast_image.in \). You will also need to replace ```username``` with your actual username that you used to log into Frontier.
 
 This is the line that you will need to change: 
 
 ```
 srun -N1 -n8 -c7 --ntasks-per-node=8 --gpus-per-node=8 --gpu-bind=closest ./athenaPK \
-    -i /ccs/home/wiktoria_zielinska/athenapk/inputs/blast_image.in \
+    -i /ccs/home/username/athenapk/inputs/blast_image.in \
 ```
 
 ![image](https://github.com/user-attachments/assets/9ec13d85-6455-4dce-b6c1-295688e938ca)
