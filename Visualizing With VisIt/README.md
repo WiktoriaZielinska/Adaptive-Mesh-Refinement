@@ -1,4 +1,11 @@
+# VisIt Visualization Guide  
+
+This guide walks you through the process of visualizing your simulation data using VisIt, a scientific visualization tool. Each step includes detailed explanations and relevant screenshots to help you successfully render and analyze your data.  
+
+---
+
 ## Steps 1 - 3: Opening and Launching VisIt
+Once your simulation job has completed, you’re ready to visualize the results using VisIt. These steps guide you through launching the application and connecting to the correct host profile.  
 
 ### 1. After submitting your job and it finishes, you are now ready to open VisIt and see your simulation.
 
@@ -15,6 +22,7 @@
 ---
 
 ## Steps 4 - 7: Connecting to the Server
+After launching VisIt, you must establish a connection to the server hosting your simulation files.  
 
 ### 4. Now, click on ```Open```.
 
@@ -52,6 +60,7 @@ Going back to VisIt, you should see this screen:
 ---
 
 ## Steps 8 - 10: Navigating the Directories
+After connecting to the server, locate your simulation files. These steps guide you through the directory structure.  
 
 ### 8. Click on ```athenapk``` in the ```Directories```:
 
@@ -72,6 +81,7 @@ You should now see this screen:
 ---
 
 ## Steps 11 - 12: Selecting the Files for Visualization
+Now that you’ve located your directories, choose the specific files needed for visualization.  
 
 ### 11. In ```Files```, scroll down and click on the ```parthenon``` files that have ```"xdmf"``` in them. Then click on ```OK```:
 
@@ -84,6 +94,7 @@ You should now see this screen:
 ---
 
 ## Steps 13 - 14: Visualizing the Data
+You’re now ready to load and visualize your simulation data in VisIt.  
 
 ### 13. This screen will pop up, and it will shortly disappear when VisIt is ready to visualize your data:
 
@@ -96,6 +107,7 @@ You should now see this screen:
 ---
 
 ## Steps 15 - 18: Adding Visualization Variables
+You can enhance your visualization by adding data variables such as mesh structure or pseudocolor plots.  
 
 ### 15. Click on ```Add```:
 
@@ -136,6 +148,7 @@ You should now see this screen:
 ---
 
 ## Steps 23 - 26: Starting, Stopping, and Reversing the Visualization
+Once your visualization is loaded, you can control the playback of time steps. These steps explain how to manage playback and navigate through time steps.  
 
 ### 23. VisIt will continue to go through each time step until it gets to the end or until you stop it with the center square button to the left of the right play button:
 
@@ -156,6 +169,7 @@ You should now see this screen:
 ---
 
 ## Steps 27 - 29: Adding Additional Variables and Playing with Visualization
+You can enhance your visualization by adding more variables and experimenting with the playback.  
 
 ### 27. Now let's try adding another variable. Click on ```Add``` then click on ```Pseudocolor``` then click on ```cons_density```:
 
